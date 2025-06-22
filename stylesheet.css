@@ -319,9 +319,43 @@
         padding: 6px;
         font-size: 14px;
     }
-}   
+}
+
 .gallery img {
     width: 400px;
     height: 400px;
     object-fit: cover;
+}
+
+.gallery {
+    display: flex;
+    gap: 16px; /* spazio tra le immagini */
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: 1280px; /* o la larghezza che preferisci */
+    margin: 0 auto;
+}
+
+@media (max-width: 500px) {
+  .gallery img {
+    width: 100%;
+    height: auto;
+    max-width: 100vw;
   }
+}
+
+.gallery-video {
+  display: flex;
+  gap: 16px;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 1280px;
+  margin: 32px auto;
+}
+.gallery-video video {
+  width: 400px;
+  max-width: 100vw;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
