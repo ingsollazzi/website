@@ -360,6 +360,7 @@
   margin: 32px auto;
 }
 .gallery-video video {
+   
   width: 400px;
   height: 400px;
   max-width: 100vw;
@@ -367,3 +368,10 @@
   border-radius: 8px;
   box-shadow: 0 2px 8px rgba(0,0,0,0.08);
 }
+.video {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* opzionale: aggiungi un po' di margine sopra e sotto */
+    margin: 2em 0;
+  }
