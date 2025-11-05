@@ -145,22 +145,38 @@
        width: 30%;
        box-sizing: border-box;
        padding: 10px;
+       min-width: 0;
+       overflow-x: hidden;
        
        
         }
 
         .gigs-container h2 {
             font-size: 1.1rem;
+            width: 100%;
+            max-width: 100%;
+            box-sizing: border-box;
+            word-wrap: break-word;
+            overflow-wrap: break-word;
         }
 
                  .gigs-container    
                  h3 {
                      font-size: 1rem;
+                     width: 100%;
+                     max-width: 100%;
+                     box-sizing: border-box;
+                     word-wrap: break-word;
+                     overflow-wrap: break-word;
                  }
 
                                   .gigs-container p {
                                       font-size: 1rem;
-                                    
+                                      width: 100%;
+                                      max-width: 100%;
+                                      box-sizing: border-box;
+                                      word-wrap: break-word;
+                                      overflow-wrap: break-word;
                                   }
 
         .gigs-container ul {
@@ -168,6 +184,10 @@
             max-width: 100%;
             overflow-wrap: break-word;
             word-wrap: break-word;
+            word-break: break-word;
+            white-space: normal;
+            min-width: 0;
+            box-sizing: border-box;
         }
 
         .gigs-container li {
@@ -175,6 +195,11 @@
             max-width: 100%;
             overflow-wrap: break-word;
             word-wrap: break-word;
+            word-break: break-word;
+            white-space: normal;
+            min-width: 0;
+            box-sizing: border-box;
+            display: block;
         }
 
         .gigs-container .interactive-container {
