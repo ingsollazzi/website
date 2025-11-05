@@ -143,10 +143,7 @@
     display: flex;
         flex-direction: column;
        width: 30%;
-       overflow-x: hidden;
-       overflow-y: auto;
-       max-width: 100%;
-       
+       box-sizing: border-box;
        padding: 10px;
        
        
@@ -178,6 +175,23 @@
             max-width: 100%;
             overflow-wrap: break-word;
             word-wrap: break-word;
+        }
+
+        .gigs-container .interactive-container {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .gigs-container .video-container {
+            width: 100%;
+            max-width: 100%;
+        }
+
+        .gigs-container .video-container iframe {
+            width: 100%;
+            max-width: 100%;
+            height: auto;
+            aspect-ratio: 16/9;
         }
 
 
